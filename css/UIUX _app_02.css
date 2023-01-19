@@ -84,7 +84,7 @@ body {
     width: 92px;
     height: 34px;
     justify-content: space-between;
-    border: 2px solid #9a9a9a;
+
     padding: 0 10px;
     align-items: center;
 }
@@ -111,6 +111,9 @@ body {
 .app .bottom img {
     width: 319px;
     height: 569px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    box-shadow: 4px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
 }
 
 .border {
@@ -120,7 +123,7 @@ body {
 /* footer */
 .footer {
     width: 1200px;
-    height: 102px;
+    height: 160px;
     margin: 0 auto;
 }
 
@@ -129,16 +132,16 @@ body {
     font-weight: 400;
     color: #ccc9c9;
     text-align: center;
-    padding-top: 24px;
-    padding-bottom: 16px;
+    padding-top: 40px;
 }
 
 .footer ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 10px;
 }
 
 .footer ul .mid_icon {
-    padding: 0 78px;
+    padding: 0 40px;
 }

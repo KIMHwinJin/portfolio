@@ -5,6 +5,15 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Portfolio</title>
+        <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+        <link
+            rel="stylesheet"
+            href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+        />
+        <link
+            rel="stylesheet"
+            href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+        />
         <link rel="stylesheet" href="/css/main.css" />
     </head>
     <body>
@@ -41,10 +50,10 @@
                         <h2>UI/UX</h2>
                     </a>
 
-                    <ul>
-                        <li>
+                    <div class="slide_01">
+                        <div>
                             <a href="./pages/uiux/UIUX_web.html">
-                                <img src="/images/uiux_01.jpg" alt="" />
+                                <img src="/images/main_uiux01.png" alt="" />
                                 <div class="detail">
                                     <h3>협업 사이트 가입 페이지</h3>
                                     <p>
@@ -54,11 +63,11 @@
                                     </p>
                                 </div>
                             </a>
-                        </li>
+                        </div>
 
-                        <li>
+                        <div>
                             <a href="./pages/uiux/UIUX_web_02.html">
-                                <img src="/images/uiux_02.jpg" alt="" />
+                                <img src="/images/main_uiux02.png" alt="" />
                                 <div class="detail">
                                     <h3>공간대여 사이트 가입 페이지</h3>
                                     <p>
@@ -67,9 +76,9 @@
                                     </p>
                                 </div>
                             </a>
-                        </li>
+                        </div>
 
-                        <li>
+                        <div>
                             <a href="./pages/uiux/UIUX_app_01.html">
                                 <img src="./images/uiux_menu_03.jpg" alt="" />
                                 <div class="detail">
@@ -80,11 +89,46 @@
                                     </p>
                                 </div>
                             </a>
-                        </li>
-                    </ul>
-                    <div class="slide">
-                        <div class="slide_button"></div>
-                        <div class="slide_button"></div>
+                        </div>
+
+                        <div>
+                            <a href="./pages/uiux/UIUX_app_01.html">
+                                <img src="./images/main_uiux04.png" alt="" />
+                                <div class="detail">
+                                    <h3>여행 앱 가입페이지</h3>
+                                    <p>
+                                        여름 시즌을 저격하여 바다 이미지를
+                                        사용하여<br />시원한 느낌을 주는 사이트
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div>
+                            <a href="./pages/uiux/UIUX_app_01.html">
+                                <img src="./images/main_uiux05.png" alt="" />
+                                <div class="detail">
+                                    <h3>여행 앱 가입페이지</h3>
+                                    <p>
+                                        여름 시즌을 저격하여 바다 이미지를
+                                        사용하여<br />시원한 느낌을 주는 사이트
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div>
+                            <a href="./pages/uiux/UIUX_app_01.html">
+                                <img src="./images/main_uiux06.png" alt="" />
+                                <div class="detail">
+                                    <h3>여행 앱 가입페이지</h3>
+                                    <p>
+                                        여름 시즌을 저격하여 바다 이미지를
+                                        사용하여<br />시원한 느낌을 주는 사이트
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -111,7 +155,7 @@
 
                     <li>
                         <a href="./pages/publishing/publishing_shoes.html">
-                            <img src="/images/shoes.jpg" alt="" />
+                            <img class="shoe" src="/images/shoes.jpg" alt="" />
                             <div class="detail">
                                 <h3>Sam’s shoes</h3>
                                 <p>
@@ -210,6 +254,19 @@
             </div>
         </div>
 
-        <script src="./main.js"></script>
+        <script
+            type="text/javascript"
+            src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+        ></script>
+
+        <script>
+            $('.slide_01').slick({
+                infinite: true,
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                dots: true,
+                arrows: false,
+            })
+        </script>
     </body>
 </html>

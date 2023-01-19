@@ -101,6 +101,8 @@ body {
 .uiux .web .imges img {
     width: 358px;
     height: 254px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    border-radius: 10px;
 }
 
 .uiux .app .sub_title {
@@ -131,7 +133,7 @@ body {
 .uiux .app .imges img {
     width: 170px;
     height: 367px;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.12);
     border-radius: 20px;
 }
 
@@ -146,9 +148,10 @@ body {
     border: 1px solid #e9e9ec;
 }
 /* footer */
+
 .footer {
     width: 1200px;
-    height: 102px;
+    height: 160px;
     margin: 0 auto;
 }
 
@@ -157,16 +160,16 @@ body {
     font-weight: 400;
     color: #ccc9c9;
     text-align: center;
-    padding-top: 24px;
-    padding-bottom: 16px;
+    padding-top: 40px;
 }
 
 .footer ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 10px;
 }
 
 .footer ul .mid_icon {
-    padding: 0 78px;
+    padding: 0 40px;
 }
