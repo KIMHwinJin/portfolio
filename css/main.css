@@ -1,0 +1,233 @@
+/* 넓이 1440  콘텐츠 1200  */
+/* font-family: 'Montserrat', sans-serif; */
+/* 노토산스 400 레귤러 500미디움 700볼드 900엑스트라볼드 */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Noto+Sans+KR:wght@400;500;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+/* 헤더 */
+.header {
+    width: 100%;
+    height: 80px;
+    background-color: #202b41;
+}
+
+.header .lnb.fixed {
+    position: fixed;
+    left: 0;
+    top: 0;
+}
+
+.header .nav {
+    width: 1200px;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.header .nav li {
+    font-weight: 500;
+}
+/* 헤더 끝 */
+
+/* 메인 */
+.main {
+    width: 100%;
+    height: 700px;
+    margin: 0 auto;
+    background-image: url('../images/main_bg.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main p {
+    text-align: center;
+    padding-top: 170px;
+    font-size: 26px;
+    font-weight: 400px;
+    color: #8b8b8b;
+}
+/* 메인 끝 */
+
+/* UI/UX */
+.uiux {
+    width: 100%;
+    height: 600px;
+    background-color: #f5f1e6;
+}
+
+.uiux .contents {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.uiux .contents h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    padding-bottom: 40px;
+    font-size: 40px;
+}
+
+.uiux .contents ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.uiux .contents ul li a img {
+    width: 321px;
+    height: 222px;
+}
+
+.uiux .contents ul li a h3 {
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 18px;
+}
+
+.uiux .contents ul li a p {
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 6px;
+}
+
+/* 슬라이드 버튼 필요 */
+/* uiux끝 */
+
+/* Publishing */
+.publishing {
+    width: 1200px;
+    height: 690px;
+    margin: 0 auto;
+}
+
+.publishing ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.publishing h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    padding-bottom: 40px;
+    font-size: 40px;
+    padding-top: 56px;
+    padding-bottom: 50px;
+}
+
+.publishing ul li a img {
+    width: 580px;
+    height: 310px;
+}
+
+.publishing ul li a h3 {
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 18px;
+}
+
+.publishing ul li a p {
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 6px;
+}
+
+/* 슬라이드 버튼 필요 */
+/* publishing끝 */
+
+/* 그래픽디자인  */
+.graphicdesign {
+    width: 100%;
+    height: 604px;
+    background-color: #f5f1e6;
+}
+
+.graphicdesign .contents {
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.graphicdesign .contents h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    padding-bottom: 40px;
+    font-size: 40px;
+}
+
+.graphicdesign .contents ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.graphicdesign .contents ul li a img {
+    width: 318px;
+    height: 222px;
+}
+
+.graphicdesign .contents ul li a h3 {
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 18px;
+}
+
+.graphicdesign .contents ul li a p {
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 6px;
+}
+
+/* 그래픽디자인 끝 */
+
+.border {
+    border: 1px solid #e9e9ec;
+}
+
+/* footer */
+.footer {
+    width: 1200px;
+    height: 102px;
+    margin: 0 auto;
+}
+
+.footer p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #ccc9c9;
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 16px;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer ul .mid_icon {
+    padding: 0 78px;
+}
