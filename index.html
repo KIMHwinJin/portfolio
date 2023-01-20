@@ -18,7 +18,10 @@
     </head>
     <body>
         <div class="container">
-            <div class="header" id="lnb">
+            <div class="header">
+                <div class="logo">
+                    <img src="./images/LOGO.png" alt="" />
+                </div>
                 <ul class="nav">
                     <li><a href="#x">홈</a></li>
                     <li><a href="/pages/profile.html">프로필</a></li>
@@ -37,9 +40,10 @@
             </div>
 
             <div class="main">
+                <h2>Save하고 싶은 마케터 김휘진입니다.</h2>
                 <p>
-                    Save하고 싶은 마케터 김휘진입니다.<br />고객의 니즈를
-                    충족시킴으로써<br />소비자의 뇌리에 깊이 각인될 수 있는<br />
+                    고객의 니즈를 충족시킴으로써<br />소비자의 뇌리에 깊이
+                    각인될 수 있는<br />
                     콘텐츠를 만드는 마케터가 되고자 합니다.
                 </p>
             </div>
@@ -65,7 +69,7 @@
                             </a>
                         </div>
 
-                        <div>
+                        <div class="pa">
                             <a href="./pages/uiux/UIUX_web_02.html">
                                 <img src="/images/main_uiux02.png" alt="" />
                                 <div class="detail">
@@ -92,7 +96,7 @@
                         </div>
 
                         <div>
-                            <a href="./pages/uiux/UIUX_app_01.html">
+                            <a href="./pages/uiux/UIUX_app_02.html">
                                 <img src="./images/main_uiux04.png" alt="" />
                                 <div class="detail">
                                     <h3>여행 앱 가입페이지</h3>
@@ -104,8 +108,8 @@
                             </a>
                         </div>
 
-                        <div>
-                            <a href="./pages/uiux/UIUX_app_01.html">
+                        <div class="pa">
+                            <a href="./pages/uiux/UIUX_app_03.html">
                                 <img src="./images/main_uiux05.png" alt="" />
                                 <div class="detail">
                                     <h3>여행 앱 가입페이지</h3>
@@ -118,7 +122,7 @@
                         </div>
 
                         <div>
-                            <a href="./pages/uiux/UIUX_app_01.html">
+                            <a href="./pages/uiux/UIUX_web_03.html">
                                 <img src="./images/main_uiux06.png" alt="" />
                                 <div class="detail">
                                     <h3>여행 앱 가입페이지</h3>
@@ -179,8 +183,8 @@
                         <h2>Graphic Design</h2>
                     </a>
 
-                    <ul>
-                        <li>
+                    <div class="slide_02">
+                        <div>
                             <a href="./pages/design/design_event1.html">
                                 <img src="/images/design_01.jpg" alt="" />
                                 <div class="detail">
@@ -192,9 +196,9 @@
                                     </p>
                                 </div>
                             </a>
-                        </li>
+                        </div>
 
-                        <li>
+                        <div>
                             <a href="./pages/design/design_event2.html">
                                 <img src="/images/design_02.jpg" alt="" />
                                 <div class="detail">
@@ -206,8 +210,8 @@
                                     </p>
                                 </div>
                             </a>
-                        </li>
-                        <li>
+                        </div>
+                        <div>
                             <a href="./pages/design/design_banner3.html">
                                 <img src="/images/design_03.jpg" alt="" />
                                 <div class="detail">
@@ -220,11 +224,49 @@
                                     </p>
                                 </div>
                             </a>
-                        </li>
-                    </ul>
-                    <div class="slide">
-                        <div class="slide_button"></div>
-                        <div class="slide_button"></div>
+                        </div>
+                        <div>
+                            <a href="./pages/design/design_event3.html">
+                                <img src="/images/design_04.png" alt="" />
+                                <div class="detail">
+                                    <h3>새학기!새출발이벤트</h3>
+                                    <p>
+                                        제품을 귀여운 형식으로 그려냈으며,
+                                        할인율에 포인트<br />를 줘서
+                                        랜딩페이지로의 유도를 주 목적으로 한
+                                        페이지
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="./pages/design/design_banner1.html">
+                                <img src="/images/design_05.png" alt="" />
+                                <div class="detail">
+                                    <h3>새학기!새출발이벤트</h3>
+                                    <p>
+                                        제품을 귀여운 형식으로 그려냈으며,
+                                        할인율에 포인트<br />를 줘서
+                                        랜딩페이지로의 유도를 주 목적으로 한
+                                        페이지
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
+                        <div>
+                            <a href="./pages/design/design_banner2.html">
+                                <img src="/images/design_06.png" alt="" />
+                                <div class="detail">
+                                    <h3>새학기!새출발이벤트</h3>
+                                    <p>
+                                        제품을 귀여운 형식으로 그려냈으며,
+                                        할인율에 포인트<br />를 줘서
+                                        랜딩페이지로의 유도를 주 목적으로 한
+                                        페이지
+                                    </p>
+                                </div>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -266,6 +308,16 @@
                 slidesToScroll: 3,
                 dots: true,
                 arrows: false,
+                variableWidth: true,
+            })
+
+            $('.slide_02').slick({
+                infinite: true,
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                dots: true,
+                arrows: false,
+                variableWidth: true,
             })
         </script>
     </body>
