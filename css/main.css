@@ -29,7 +29,12 @@ body {
     width: 100%;
     height: 80px;
     background-color: #202b41;
+}
+
+.header .center_box {
     display: flex;
+    width: 1200px;
+    margin: 0 auto;
 }
 
 .header .logo {
@@ -37,10 +42,10 @@ body {
 }
 
 .header .logo img {
-    width: 78px;
-    height: 70px;
+    width: 40px;
+    height: 40px;
     display: block;
-    margin-top: 5px;
+    margin-top: 23px;
 }
 
 .header .nav {
@@ -51,7 +56,6 @@ body {
     justify-content: space-between;
     align-items: center;
     color: #fff;
-    padding-right: 20px;
 }
 
 .header .nav li {
@@ -261,7 +265,7 @@ body {
     font-weight: 400;
     color: #ccc9c9;
     text-align: center;
-    padding-top: 40px;
+    padding-top: 52px;
 }
 
 .footer ul {
