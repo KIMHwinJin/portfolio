@@ -31,6 +31,23 @@ body {
     background-color: #202b41;
 }
 
+.header .center_box {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header .logo {
+    margin-right: 400px;
+}
+
+.header .logo img {
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin-top: 23px;
+}
+
 .header .nav {
     width: 1200px;
     height: 80px;
@@ -44,6 +61,7 @@ body {
 .header .nav li {
     font-weight: 500;
 }
+
 /* 헤더 끝 */
 
 /* contents */
