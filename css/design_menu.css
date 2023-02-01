@@ -42,10 +42,10 @@ body {
 }
 
 .header .logo img {
-    width: 40px;
-    height: 40px;
+    width: 46px;
+    height: 46px;
     display: block;
-    margin-top: 23px;
+    margin-top: 20px;
 }
 
 .header .nav {
@@ -78,7 +78,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     color: #202b41;
     text-align: center;
-    margin-bottom: 57px;
+    margin-bottom: 130px;
 }
 
 .design .sub_title {
@@ -91,7 +91,7 @@ body {
 }
 
 .design .banner {
-    margin-bottom: 68px;
+    margin-bottom: 100px;
 }
 
 .design .banner .sub_title {
